@@ -1,19 +1,14 @@
-# 🎈 Blank app template
+# Análisis de Leyes con Streamlit
 
-A simple Streamlit app template for you to modify!
+Esta aplicación permite analizar documentos PDF de leyes utilizando palabras clave. Extrae el texto de los PDFs, busca palabras clave y genera un informe detallado.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## ¿Cómo usar?
+1. Sube los archivos PDF a través de la interfaz.
+2. Sube el archivo de palabras clave en formato `.txt`.
+3. Visualiza y descarga los resultados en formato CSV.
 
-### How to run it on your own machine
+## Requisitos
+- Python 3.8 o superior
+- Dependencias en `requirements.txt`
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Instalación
